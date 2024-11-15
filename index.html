@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Digital Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>DigitalStore</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" placeholder="Search Products..." id="search-bar">
+        </div>
+    </header>
+
+    <!-- Content Sections -->
+    <section id="home" class="content-section">
+        <h2>Welcome to DigitalStore!</h2>
+        <p>Find amazing digital products such as E-books, Music, Software, and more!</p>
+    </section>
+
+    <section id="shop" class="content-section">
+        <h2>Shop by Category</h2>
+        <p>Browse through a variety of digital products, including E-books, Music, Audiobooks, and Software.</p>
+    </section>
+
+    <section id="about" class="content-section">
+        <h2>About Us</h2>
+        <p>We offer a wide range of digital products including E-books, Audiobooks, Music, and Software. Our mission is to provide high-quality digital goods at affordable prices for everyone.</p>
+    </section>
+
+    <section id="contact" class="content-section">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need support, feel free to reach out to us at <a href="mailto:support@digitalstore.com">support@digitalstore.com</a></p>
+    </section>
+
+    <!-- Filters Section -->
+    <section class="filters">
+        <h2>Shop by Category</h2>
+        <div class="filter-options">
+            <button class="filter-btn">E-books</button>
+            <button class="filter-btn">Music</button>
+            <button class="filter-btn">Audiobooks</button>
+            <button class="filter-btn">Software</button>
+            <button class="filter-btn">All Products</button>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="product-container" id="product-container">
+        <div class="product-card" data-category="ebooks">
+            <img src="image copy.png" alt="Ebook 1">
+            <h3>Learn Web Development</h3>
+            <p class="price">$19.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+            <p class="cart-message">Item added to cart!</p>
+        </div>
+
+        <div class="product-card" data-category="music">
+            <img src="image copy 2.png" alt="Music 1">
+            <h3>Classic Jazz Hits</h3>
+            <p class="price">$9.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+            <p class="cart-message">Item added to cart!</p>
+        </div>
+
+        <div class="product-card" data-category="audiobooks">
+            <img src="image copy 3.png" alt="Audiobook 1">
+            <h3>The Power of Habit</h3>
+            <p class="price">$14.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+            <p class="cart-message">Item added to cart!</p>
+        </div>
+
+        <div class="product-card" data-category="software">
+            <img src="image copy 4.png" alt="Software 1">
+            <h3>Photoshop Creative Suite</h3>
+            <p class="price">$49.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+            <p class="cart-message">Item added to cart!</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <ul>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+            <p>&copy; 2024 DigitalStore, All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
